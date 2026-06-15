@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pronađi cveće</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<form action="/search" method="post">
+
+    <label for="occasion">Namena cveća</label>
+    <select name="occasion" id="occasion">
+        <option value="gift">Poklon</option>
+        <option value="wedding">Svadba</option>
+        <option value="funeral">Sahrana</option>
+        <option value="decoration">Dekoracija</option>
+    </select>
+
+    <label for="color">Boja</label>
+    <select name="color" id="color">
+        <option value="red">Crvena</option>
+        <option value="white">Bela</option>
+        <option value="yellow">Žuta</option>
+        <option value="pink">Roze</option>
+    </select>
+
+    <label for="location">Lokacija</label>
+    <select name="location" id="location">
+        <option value="Stari Grad">Stari Grad</option>
+        <option value="Vračar">Vračar</option>
+        <option value="Novi Beograd">Novi Beograd</option>
+    </select>
+
+    <label for="season">Sezona</label>
+    <select name="season" id="season">
+        <option value="spring">Proleće</option>
+        <option value="summer">Leto</option>
+        <option value="autumn">Jesen</option>
+        <option value="winter">Zima</option>
+    </select>
+
+    <label for="indoor">Za zatvoreni prostor</label>
+    <select name="indoor-safe" id="indoor">
+        <option value="true">Da</option>
+        <option value="false">Ne</option>
+    </select>
+
+    <button type="submit">Pronađi cveće</button>
+
+</form>
+
+</body>
+</html>
